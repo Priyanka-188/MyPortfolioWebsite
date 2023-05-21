@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -7,8 +8,8 @@
 }
 
 .sidebar{
-    background-color: red;
-    width: 10vw;
+    background-color: rgb(234, 232, 232);
+    width: 332px;
     
     font-family: 'Hind Siliguri', sans-serif;
 }
@@ -20,12 +21,17 @@
 
 .sidebar nav li{
     list-style: none;
-    font-size: 25px;
+    font-size: 24px;
     padding: 25px 0px;
 }
 
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
 .main{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 90vw;
 }
 
@@ -33,4 +39,57 @@
 .container{
     display: flex;
     
+}
+.infoContainer{
+    /* background-color: rgb(243, 219, 195); */
+    height: 58vh;
+    width: 75vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    height: 58vh;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+   font-size: 2.5em;
+}
+.name{
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.about{
+    font-size: 1.6em;
+   }
+.moreabout{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+
+}
+.buttons{
+    margin-top: 32px;
+}
+.buttons button{
+    padding: 7px 15px;
+    color: white;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 21px;
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
 }
